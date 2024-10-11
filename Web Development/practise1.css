@@ -1,0 +1,29 @@
+.d {
+    height: 300px;
+    width: 500px;
+    background-size: 100% 100%;
+    background-color: rgb(103, 184, 184);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.50);
+    animation: Anime 10s linear infinite;
+    margin-left: 220px;
+    margin-top: 80px;
+    animation: Anime 10s linear delay infinite direction fill-mode;
+}
+
+@keyframes Anime {
+    0% {
+        background-image: url("AC1.jpg");
+    }
+
+    30% {
+        background-image: url("AC2.jpg");
+    }
+
+    60% {
+        background-image: url("ACR.jpg");
+    }
+
+    100%{
+        background-image: url("ACB.jpg");
+    }
+}
